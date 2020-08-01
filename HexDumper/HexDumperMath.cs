@@ -1,10 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace HexDumper
 {
-	public static internal class HexDumperMath
+	public static class HexDumperMath
 	{
 		public static int Log16(this int input)
 		{

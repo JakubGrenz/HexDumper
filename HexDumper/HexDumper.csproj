@@ -2,6 +2,16 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <PackageId>HexDumper</PackageId>
+    <Version>1.0.3</Version>
+    <Authors>JakubGrenz</Authors>
+    <Company>None</Company>
+    <Description>Small library designed for conversion of an array of bytes into HexDump format</Description>
+    <RepositoryUrl>https://github.com/JakubGrenz/HexDumper</RepositoryUrl>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <License>https://spdx.org/licenses/WTFPL.html</License>
+    <PackageLicenseExpression>WTFPL</PackageLicenseExpression>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
-
 </Project>
+  

@@ -1,6 +1,7 @@
 using NUnit.Framework;
 using NUnit.Framework.Internal;
 using System.Collections.Generic;
+
 namespace HexDumper.Tests
 {
 	[TestFixture]
@@ -12,7 +13,7 @@ namespace HexDumper.Tests
 		public void ConvertBytesToString()
 		{
 			foreach (var testCase in _testCases) {
-				var result = HexDumper.ConvertToHexDump(testCase.Bytes);
+				var result = ByteConverter.ConvertToHexDump(testCase.Bytes);
 
 				Assert.That(result.Equals(testCase.ExpectedHexDump));
 			}

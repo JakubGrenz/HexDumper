@@ -8,7 +8,7 @@ namespace HexDumper
 	{
 		internal static int Log16(this int input)
 		{
-			return (int)Math.Floor(Math.Log(input, 16));
+			return (int)System.Math.Floor(System.Math.Log(input, 16));
 		}
 
 		internal static int ExtremeValuesToZero(this int input)

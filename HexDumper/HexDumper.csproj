@@ -3,8 +3,8 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <PackageId>HexDumper</PackageId>
-    <Version>1.0.5</Version>
-    <Authors>JakubGrenz</Authors>
+    <Version>1.0.8</Version>
+    <Authors>Jakub Grenz</Authors>
     <Company>None</Company>
     <Description>Small library designed for conversion of an array of bytes into HexDump format</Description>
     <RepositoryUrl>https://github.com/JakubGrenz/HexDumper</RepositoryUrl>

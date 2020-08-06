@@ -4,7 +4,7 @@ using System.Text;
 
 namespace HexDumper
 {
-	public static class HexDumper
+	public static class ByteConverter
 	{
 		public static string ConvertToHexDump(byte[] bytes)
 		{

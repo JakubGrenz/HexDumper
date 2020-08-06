@@ -5,7 +5,7 @@ using System.Text;
 
 namespace HexDumper.Tests
 {
-	class HexDumperMath
+	public class HexDumperMath
 	{
 		[TestCase(0, int.MinValue)]
 		[TestCase(15, 0)]
